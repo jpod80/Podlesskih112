@@ -39,7 +39,6 @@ print(list2)
 for row in range(len(all_array2)):
     if row % 2 == 0:
         for col in range(len(all_array2[row])):
-            # print(all_array2[row + 1][col], end="\t")
             print(list2[col], end="\t")
         print()
         for col in range(len(all_array2[row])):
