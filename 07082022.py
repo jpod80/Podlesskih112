@@ -32,3 +32,16 @@ from random import randint
 # print(s)
 
 
+# abcd = int(input())
+# d = abcd % 10
+# c = abcd // 10 % 10
+# b = abcd // 100 % 10
+# a = abcd // 1000
+#
+# print(a, b, c, d)
+
+a = int(input())
+aa = str(a)*2
+aaa = str(a)*3
+su = int(a) + int(aa) + int(aaa)
+print(su)
