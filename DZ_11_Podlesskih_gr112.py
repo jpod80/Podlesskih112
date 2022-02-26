@@ -10,7 +10,7 @@ print()
 
 # # Задание 2. Переименовать ключ.
 dic_c = {"name": "Kelly", "age": 25, "salary": 8000, "city": "New York"}
-# dic_c['location'] = dic_c.pop('city')  
+# dic_c['location'] = dic_c.pop('city')
 dic_ccc = {"location": "New York"}
 dic_c.pop("city")
 dic_c.update(dic_ccc)
